@@ -6,4 +6,4 @@ ADD requirements.txt /
 
 RUN pip install -r requirement.txt
 
-CMD["python", "__main__.py -H mon_serveur_mongo -P 27017 -D ma_database_mongo -u mon_user_mongo -p mon_password_mongo -A mon_api_bracelet"]
+CMD ["python", "__main__.py -H mon_serveur_mongo -P 27017 -D ma_database_mongo -u mon_user_mongo -p mon_password_mongo -A mon_api_bracelet"]
